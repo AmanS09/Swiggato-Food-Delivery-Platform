@@ -1,0 +1,146 @@
+/* style2.css */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #555;
+    font-size: 20px;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .delete-btn {
+    color: #f44336;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .payment-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 16px 28px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #totalPriceSection {
+    margin-top: 20px;
+    text-align: left; /* Align the "Total Price" section to the left */
+  }
+  
+  #totalPrice {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 24px;
+  }
+  
+  /* Additional styles for table cells */
+  td:nth-child(1), td:nth-child(4) {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  td:nth-child(2), td:nth-child(3) {
+    font-size: 20px;
+    color: #555;
+  }
+
+  table td:first-child {
+    width: 80px; 
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+}
+
+  
+ 
+
+.cart-container {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-image {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.item-details  {
+  flex: 1;
+}
+
