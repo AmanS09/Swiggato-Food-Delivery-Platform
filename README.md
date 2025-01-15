@@ -5,6 +5,8 @@ Swiggato is a web application designed to facilitate food delivery services, ins
 It aims to replicate core functionalities while enhancing user experience and backend management. 
 The project incorporates various technologies to ensure stability and user-friendliness.
 
+# Cureently in Devlopment Phase
+
 ## Features
 
 **The frontend is intuitively designed for ease of use, providing an attractive and engaging experience for users.
